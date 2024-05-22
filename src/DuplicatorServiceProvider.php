@@ -2,9 +2,9 @@
 
 namespace FikriMastor\Duplicator;
 
+use FikriMastor\Duplicator\Commands\DuplicatorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use FikriMastor\Duplicator\Commands\DuplicatorCommand;
 
 class DuplicatorServiceProvider extends PackageServiceProvider
 {

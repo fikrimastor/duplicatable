@@ -2,9 +2,9 @@
 
 namespace FikriMastor\Duplicator\Tests;
 
+use FikriMastor\Duplicator\DuplicatorServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use FikriMastor\Duplicator\DuplicatorServiceProvider;
 
 class TestCase extends Orchestra
 {
