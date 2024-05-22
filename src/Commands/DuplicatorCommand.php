@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace FikriMastor\Duplicator\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DuplicatorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'duplicatable';
 
     public $description = 'My command';
 
